@@ -14,9 +14,13 @@ Descripción:
 
 
 **1. Toma de Requerimientos**
+
 **2. Buyer Persona**
+
 **3. Público objetivo**
+
 **4. Wireframe UX**
+
 **5. UI**
 
 ## Diseño UI
