@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASTELERIA LUNAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class=""> 
+        <nav class="navbar navbar-light" style="background-color: #d9d9d9; height: 150px;">
+            <!-- Navbar content -->
+            <div class="d-flex align-items-center">
+                <img src="img/logo.png" alt="pasteleria lunar" height="120px">
+                <h2 class="text-white">PASTELERIA LUNAR</h2>
+            </div>
+            <div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu_pasteles">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#decoraciones">PERSONALIZA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pedido">ORDENAR</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="inventarios.html">ADMINISTRADOR</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+    </div>
+<div class="contenedor">
+    <section id="menu_pasteles">
+        <!-- El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno. -->
+        <h3 align="center" class="m-4">MENU DE PASTELES</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top pastel-card" src="img/delicia sobre luna.png" alt="flan">
+                        <div class="card-body">
+                            <h4 class="card-title">Delicia Sobre Luna <span class="badge badge-success">$125</span></h4>
+                            <p class="card-text">
+                                Pastel de vainilla con crema chantilly y adornada con fresas. Rico y sencillo para el antojo a pastel.
+                            </p>
+                            <a href="#pedido" class="btn btn-primary">Ordena Aqui!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top pastel-card" src="img/pastel chocolate rocket launcher.png" alt="flan">
+                        <div class="card-body">
+                            <h4 class="card-title">Pastel Chocolate Rocket Launcher <span class="badge badge-success">$200</span></h4>
+                            <p class="card-text">
+                                Pastel de tres leches, cubierto con chocolate y crema chantilly. Perfecto para parejas.
+                            </p>
+                            <a href="#pedido" class="btn btn-primary">Ordena Aqui!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top pastel-card" src="img/pastel explosion de estrellas.png" alt="flan">
+                        <div class="card-body">
+                            <h4 class="card-title">Pastel Explosion de Estrellas <span class="badge badge-success">$250</span></h4>
+                            <p class="card-text">
+                                Pastel hecho a partir de varios sabores (vainilla, fresa chocolate) adornada con fresas y chispas de colores. Toda una explosion de sabores!
+                            </p>
+                            <a href="#pedido" class="btn btn-primary">Ordena Aqui!</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top pastel-card" src="img/flan roca lunar.png" alt="flan">
+                        <div class="card-body">
+                            <h4 class="card-title">Flan Roca Lunar <span class="badge badge-success">$150</span></h4>
+                            <p class="card-text">
+                               Delicioso Flan en forma de roca lunar, hecho de vainilla. Para compartir en familia.
+                            </p>
+                            <a href="#pedido" class="btn btn-primary">Ordena Aqui!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top pastel-card" src="img/rebanada mora de neptuno.png" alt="flan">
+                        <div class="card-body">
+                            <h4 class="card-title">Pastel Mora de Neptuno <span class="badge badge-success">$250</span></h4>
+                            <p class="card-text">
+                                Pastel de moras con estilo completamente azul. Una delicia y belleza de pastel.
+                            </p>
+                            <a href="#pedido" class="btn btn-primary">Ordena Aqui!</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top pastel-card" src="img/pastel delicia estelar.png" alt="flan">
+                        <div class="card-body">
+                            <h4 class="card-title">Pastel Delicia Estelar <span class="badge badge-success">$125</span></h4>
+                            <p class="card-text">
+                                Un pastel grande y rico, hecho de tres leches con vainilla y crema chantilly.
+                            </p>
+                            <a href="#pedido" class="btn btn-primary">Ordena Aqui!</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="decoraciones">
+        <!-- El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno. -->
+        <div class="container">
+            <h3 align="center" class="m-4">DECORACIONES</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Pastel
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Flan
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Panquesito
+                        </label>
+                      </div>
+                </div>
+                <div class="col-md-4">
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Chocolate <span class="badge badge-success">$20
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Fresa <span class="badge badge-success">$20
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Vainilla <span class="badge badge-success">$20
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Cajeta <span class="badge badge-success">$25
+                            </label>
+                        </div>
+
+                </div>
+                <div class="col-md-4">
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Trozos de Chocolates <span class="badge badge-success">$15
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Gomitas <span class="badge badge-success">$15
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Glaseado <span class="badge badge-success">$10
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Fondant <span class="badge badge-success">$10
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Chantilly <span class="badge badge-success">$10
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Fresas <span class="badge badge-success">$20
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Moras <span class="badge badge-success">$20
+                            </label>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="pedido">
+        <!-- El cliente de la pastelería necesita poner en un formulario su pedido. -->
+        <!-- El formulario debe de contener los datos de contacto del cliente que son Nombre, Teléfono, Correo Electrónico, Descripción general del pastel y la selección de sabores y adornos. -->
+        <h3 align="center" class="m-4">ORDENAR PEDIDO</h3>
+        <div class="container">
+            <form>
+                <div class="form-group my-2">
+                  <label for="formGroupExampleInput">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Pérez">
+                </div>
+                <div class="form-group my-2">
+                    <label for="formGroupExampleInput2">Dirección</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="reforma #564">
+                </div>
+                <div class="form-group my-2">
+                  <label for="formGroupExampleInput2">Teléfono</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="(55) 1234 9999">
+                </div>
+                <div class="form-group my-2">
+                    <label for="formGroupExampleInput2">Correo</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ejemplo@ejemplo.com">
+                </div>
+                <div class="form-group my-2">
+                    <label for="formGroupExampleInput2">Descripción </label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="escriba los detalles de su pedido">
+                </div>
+                <div class="my-4" align="right">
+                    <button type="submit" class="btn btn-primary">Ordenar Ahora!</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</div>
+<div class="footer">
+    <div class="contenedor" style="margin-top: 0;">
+        <p align="right">Horario de Lunes a Viernes 8:00 am - 6:00 pm</p>
+        <p align="right">Correo: pastelerialunar@pasteles.com</p>
+        <p align="right">Teléfono: (55) 4444 9999</p>
+    </div>
+</div>
+    
+</body>
+</html>

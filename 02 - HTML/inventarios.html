@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASTELERIA LUNAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class=""> 
+        <nav class="navbar navbar-light" style="background-color: #d9d9d9; height: 150px;">
+            <!-- Navbar content -->
+            <div class="d-flex align-items-center">
+                <img src="img/logo.png" alt="pasteleria lunar" height="120px">
+                <h2 class="text-white">PASTELERIA LUNAR</h2>
+            </div>
+            <div>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pedidos">PEDIDOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#inventarios">INVENTARIO</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+    </div>
+<div class="contenedor">
+    <section id="inventarios">
+        <!-- El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno. -->
+        <h3 align="center" class="m-4">INVENTARIO</h3>
+        <div class="container">
+            <div class="row">
+                <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th>#CODIGO</th>
+                        <th>INGREDIENTES</th>
+                        <th>CANTIDAD</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>chocolate</td>
+                        <td>600 gramos</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>fresas</td>
+                        <td>400 gramos</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>vainilla</td>
+                        <td>3 litros</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>cajeta</td>
+                        <td>4 litros</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>moras</td>
+                        <td>250 gramos</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>gomitas</td>
+                        <td>400 gramos</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="pedidos">
+        <!-- El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno. -->
+        <h3 align="center" class="m-4">PEDIDOS</h3>
+        <div class="container">
+            <div class="row">
+                <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th>#FOLIO</th>
+                        <th>CLIENTE</th>
+                        <th>PEDIDO</th>
+                        <th>MONTO</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">044</th>
+                        <td>Juan Pérez</td>
+                        <td>pastel chocolate rocket launcher</td>
+                        <td>$200</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">054</th>
+                        <td>Alondra Lascurain</td>
+                        <td>pastel mora de neptuno </td>
+                        <td>$250</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">023</th>
+                        <td>Oliver Queen</td>
+                        <td>panquesito de vainilla con trozos de chocolate </td>
+                        <td>$75</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">053</th>
+                        <td>Joe Doe</td>
+                        <td>Flan de vainilla con cajeta</td>
+                        <td>$175</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+<div class="footer">
+    <div class="contenedor" style="margin-top: 0;">
+        <p align="right">dasboard administrador</p>
+    </div>
+</div>
+    
+</body>
+</html>
